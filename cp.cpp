@@ -15,7 +15,7 @@ void printError();
 
 void copycpp(const char* input, const char* output){
 
-	fstream in;
+	ifstream in;
 	fstream out;
 	if (access(input, F_OK) == -1){
 		cout << "Input file does not exist." << endl;
